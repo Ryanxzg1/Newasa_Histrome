@@ -45,9 +45,8 @@ body {
 .navbar .logo img{
   width: 5rem;
   font-weight: bolder;
-  color: rgb(255, 255, 255);
 }
-.navbar .logo center {
+.navbar .logo p{
   color: #1A2C42;
 }
 .navbar .navlinks a {
@@ -96,15 +95,6 @@ body {
   background-position: center;
   z-index: -1;
 }
-/* .hero::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(0deg, rgba(1,1,3,0)3%,
-   rgba(255,255,255,0)25%);
-
-} */
 #hm-menu {
   display: none;
 }
@@ -137,7 +127,6 @@ body {
 }
 .about .row {
   display: flex;
-
 }
 .about .row .about-img {
   flex : 1 1 45rem
@@ -154,7 +143,6 @@ body {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   text-align: center;
-
 }
 .about .row .content p {
   margin-bottom: 0.8rem;
@@ -163,7 +151,6 @@ body {
   font-weight: 100;
   line-height: 180%;
   border-style: white;
-  
 }
 
 /* Menu */
@@ -234,10 +221,7 @@ body {
   margin-top: 2rem;
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
-
-
 }
-
 .contact .row .map {
   flex: 1 1 45rem;
   width: 100%;
@@ -372,10 +356,6 @@ footer .credit a:hover {
     opacity: 1;
   }
 }
-
-
-
-
 
 .modal-container .close-icon {
   position: absolute;
